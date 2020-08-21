@@ -912,14 +912,6 @@ export const foodItems = [
     description:
       "Your bread of choice topped with our signature marinara sauce, a blend of grated mozzarella and cheddar cheese, and spicy pepperoni.",
   },
-  {
-    price: 1,
-    name: "Soda",
-    section: "Drinks",
-    choices: ["Coke", "Spire", "Root Beer"],
-    description:
-      "Your bread of choice topped with our signature marinara sauce, a blend of grated mozzarella and cheddar cheese, and spicy pepperoni.",
-  },
 ];
 
 export const items = foodItems.reduce((res, food) => {
